@@ -1,0 +1,99 @@
+.wrapper {
+    margin-top: 191px;
+    position: relative;
+}
+.hero{
+    display: flex;
+}
+
+.mainText {
+    min-width: 650px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 72px;
+    margin-top: 15px;
+
+}
+
+span {
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.desc {
+    margin-top: 40px;
+    min-width: 470px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+}
+
+.mainLeft {
+    position: relative;
+}
+
+.mainRight {
+    min-width: 670px;
+    position: relative;
+    z-index: 1;
+
+
+}
+.cards{
+
+    position: relative;
+    margin-top: 115px;
+    margin-left: 70px;
+    z-index: 800;
+    box-shadow:20px 20px 50px rgba(255, 255, 255, 0.6);
+}
+
+.cardsGradient{
+
+
+}
+ .card3{
+     margin-top: -200px;
+     position: absolute;
+     z-index: 300;
+ }
+ .card2{
+     margin-top: -150px;
+     margin-left: -15px;
+     position: absolute;
+     z-index: 200;
+ }
+ .card1{
+     margin-left: 55px;
+     position: absolute;
+     z-index: 100;
+ }
+
+.robotHand{
+    position: absolute;
+    z-index: 10;
+    margin-top: 50px;
+}
+.sphereTop{
+    margin-top: -108px;
+    position: absolute;
+    z-index: 400;
+}
+.sphereBot{
+    height: 32px;
+    margin-top: 390px;
+    margin-left: 105px;
+    position: absolute;
+    z-index: 401;
+}.sphereRght{
+    height: 68px;
+    margin-top: 300px;
+    margin-left: 435px;
+    position: absolute;
+    z-index: 402;
+}
+

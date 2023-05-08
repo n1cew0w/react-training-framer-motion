@@ -1,0 +1,48 @@
+.header {
+    margin-top: 32px;
+    display: flex;
+}
+.wrapper{
+    justify-content: space-between;
+}
+
+.logo {
+    align-self: center;
+    cursor: pointer;
+}
+
+.logoTextFirst {
+    margin-left: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logoTextSecond {
+    cursor: pointer;
+    color: #5CE1E6;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+    margin-left: auto;
+}
+ul{
+
+    display: flex;
+    list-style-type: none;
+}
+li{
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 56px;
+    font-weight: 400;
+} li:hover{
+      opacity: 1;
+      transition: 0.3s;
+    cursor:pointer;
+  }
+
