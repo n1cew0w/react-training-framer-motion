@@ -1,0 +1,153 @@
+.reviewWrapper{
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+}
+.reviewText{
+    max-width: 470px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 170%;
+    /* or 82px */
+
+
+    color: #FFFFFF;
+}
+.reviewDesc{
+    margin-left: 129px;
+    max-width: 450px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+
+    letter-spacing: 0.01em;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+.cards{
+    display: flex;
+}
+.cardImg{
+    width: 42px;
+}
+.cardReview{
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 285px;
+    border-radius: 20px;
+    background: transparent;
+}
+.cardReview:hover{
+    box-shadow: 0px 20px 100px -10px rgba(20, 195, 218, 0.16);
+    transition: box-shadow 0.5s;
+}
+.cardText{
+    max-width: 290px;
+    margin-top: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+.cardHuman{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+.cardHumanMark{
+    margin-top: 61px;
+    display: flex;
+    align-items: center;
+}
+.humanImg{
+    width: 48px;
+    height: 48px;
+}
+.humanText{
+    margin-left: 16px;
+}
+.humanName{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    margin: 0px;
+
+
+    color: #FFFFFF;
+}
+.humanJob{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    margin: 0px;
+    color: #FFFFFF;
+
+    opacity: 0.5;
+}
+.sponsors{
+    margin: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.coinbase{
+    margin-bottom: 12px;
+}
+
+.banner{
+    height: 293px;
+    border-radius: 20px;
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerText{
+    margin-left: 100px;
+    max-width: 670px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    /* or 67px */
+    color: #FFFFFF;
+}
+
+.bannerDesc{
+    margin-left: 100px;
+    max-width: 445px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.bannerBtn{
+    margin-right: 100px;
+}

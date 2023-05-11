@@ -1,0 +1,43 @@
+.advertWrapper{
+    margin-top: 180px;
+    display: flex;
+    position: relative;
+}
+.paypal{
+    position: absolute;
+    margin-left: 225px;
+    z-index: 2;
+}
+.transactions{
+    margin-top: 153px;
+    position: absolute;
+}
+.advertRight{
+    min-width: 470px;
+    margin-top: 48px;
+    margin-left: 700px;
+}
+.advertText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.advertDesc{
+    margin-top: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+
+    letter-spacing: 0.01em;
+}
+
+.images{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}

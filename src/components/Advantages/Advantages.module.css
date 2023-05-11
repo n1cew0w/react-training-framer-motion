@@ -1,0 +1,85 @@
+
+
+.advantageWrapper{
+    margin-top: 180px;
+    display: flex;
+}
+.advantageText{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 160%;
+    color: #FFFFFF;
+    max-width: 600px;
+}
+.advantageDesc{
+    margin-top: 24px;
+    max-width: 570px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/*RIGHT*/
+
+.advantageRight{
+    margin-left: 100px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+
+}
+.card{
+    background: transparent;
+    height: 113px;
+    width: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+.card:hover{
+
+    box-shadow: 0px 20px 100px -10px rgba(177, 244, 253, 0.16);
+    transition: box-shadow 0.5s;
+
+}
+.card:not(:first-child){
+    margin-top: 20px;
+}
+
+.cardImg{
+    margin-left: 20px;
+}
+
+.cardText{
+
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cardHeadText{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.cardDescText{
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}

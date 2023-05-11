@@ -5,7 +5,7 @@ import card2 from './assets/2slide.png'
 import card3 from './assets/3slide.png'
 import robotHand from './assets/robot-hand-background-presenting-technology-gesture 1.png'
 import sphere from './assets/Vector.png'
-import mainStyles from './Main.module.css'
+import mainStyles from '../Advertising/assets/Main.module.css'
 import styles from '../../App.css'
 import {motion} from "framer-motion"
 
@@ -29,9 +29,9 @@ const Main = () => {
                             className={mainStyles.mainText}>The Next <span>Generation</span> Payment Method.
                         </motion.p>
                         <motion.p
-                            initial={{x: -500}}
-                            animate={{x: 0}}
-                            transition={{ease: 'easeOut', duration: 1.5}}
+                            initial={{y: 500}}
+                            animate={{y: 0}}
+                            transition={{ease: 'easeOut', duration: 1}}
 
                             className={mainStyles.desc}>Our team of experts uses a methodology to identify the credit
                             cards most likely to fit your needs.
@@ -87,17 +87,16 @@ const Main = () => {
                         </div>
                         <motion.img
                             initial={{x: 500}}
-                            animate={{x: 0}}
+                            whileInView={{x: 0}}
                             transition={{ease: "easeOut", duration: 1.5}}
                             whileHover={{
-                                scale: 1.1,
+                                scale: 1.03,
                                 transition: { duration: 0.5 },
                             }}
 
                             src={robotHand} alt="" className={mainStyles.robotHand}/>
                     </div>
                 </div>
-
 
             </div>
         </div>
