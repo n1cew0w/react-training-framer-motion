@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styles from './Advertising.module.css'
 import paypal from './assets/paypal.png'
 import transactions from './assets/transactions.png'

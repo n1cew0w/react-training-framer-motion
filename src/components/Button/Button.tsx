@@ -1,7 +1,11 @@
-import React from 'react';
 import styles from "./Button.module.css";
 import {motion} from "framer-motion";
-const Button = ({buttonText}) => {
+
+
+
+const Button = ({buttonText}: any) => {
+
+
     return (
         <>
             <motion.button

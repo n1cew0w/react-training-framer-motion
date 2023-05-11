@@ -1,12 +1,11 @@
-import React from 'react';
-import styles from '../../App.css'
+
 import logoIcon from './logo.png'
 import headerStyles from './Header.module.css'
 const Header = () => {
 
 
     return (
-        <div className={styles.container}>
+        <div className={headerStyles.container}>
             <header className={headerStyles.wrapper}>
                 <div className={headerStyles.header}>
                     <img src={logoIcon} className={headerStyles.logo} alt=""/>

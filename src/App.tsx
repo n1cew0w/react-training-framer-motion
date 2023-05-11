@@ -5,8 +5,7 @@ import Advantages from "./components/Advantages/Advantages";
 import Advertising from "./components/Advertising/Advertising";
 import FindCard from "./components/FindCard/FindCard";
 import Reviews from "./components/Reviews/Reviews";
-import styles from './App.css'
-import {motion, useScroll, useSpring} from "framer-motion";
+
 
 function App() {
 

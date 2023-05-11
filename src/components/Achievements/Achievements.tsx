@@ -1,4 +1,4 @@
-import React from 'react';
+
 import AchStyles from './Achievements.module.css'
 const Achievements = () => {
     return (

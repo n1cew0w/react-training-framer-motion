@@ -1,4 +1,3 @@
-import React from 'react';
 import banner from './assets/banner.png'
 import card1 from './assets/1slide.png'
 import card2 from './assets/2slide.png'
@@ -6,12 +5,12 @@ import card3 from './assets/3slide.png'
 import robotHand from './assets/robot-hand-background-presenting-technology-gesture 1.png'
 import sphere from './assets/Vector.png'
 import mainStyles from '../Advertising/assets/Main.module.css'
-import styles from '../../App.css'
+
 import {motion} from "framer-motion"
 
 const Main = () => {
     return (
-        <div className={styles.container}>
+        <div className={mainStyles.container}>
             <div className={mainStyles.wrapper}>
                 <div className={mainStyles.hero}>
                     <div className={mainStyles.mainLeft}>

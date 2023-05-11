@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Button from "../Button/Button";
 import styles from './FindCard.module.css'
 import rightSide from './images.png'

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import styles from './Advantages.module.css'
 import star from './icons/iconStar.png'
 import armor from './icons/iconArmor.png'
