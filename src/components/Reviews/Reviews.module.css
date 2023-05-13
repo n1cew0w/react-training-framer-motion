@@ -151,3 +151,80 @@
 .bannerBtn{
     margin-right: 100px;
 }
+@media (max-width: 985px) {
+    .reviewWrapper{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .reviewDesc{
+        margin: 0;
+    }
+}
+@media (max-width: 925px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sponsors{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 15px;
+        flex-wrap: inherit;
+    }
+    .item {
+        flex: 1 1 auto;
+        margin: 25px 0px;
+    }
+    .bannerText{
+        font-size: 36px;
+        max-width: 470px;
+    }
+    .bannerDesc{
+        font-size: 12px;
+        max-width: 370px;
+    }
+}
+@media (max-width: 650px) {
+    .bannerText{
+        margin-left: 25px;
+        font-size: 24px;
+        max-width: 370px;
+    }
+    .bannerDesc{
+        margin-left: 25px;
+        font-size: 8px;
+        max-width: 270px;
+    }
+    .banner{
+        height: 150px;
+    }
+    .bannerBtn{
+        margin-right: 25px;
+    }
+}
+@media (max-width: 425px) {
+    .reviewText {
+        font-size: 36px;
+        margin-top: 0px;
+    }
+
+    .reviewDesc {
+        font-size: 14px;
+    }
+    .findRight img{
+        margin-right: 75px;
+        max-width: 363px;
+        min-height: 300px;
+    }
+    .cardReview{
+        align-items: center;
+        text-align: center;
+        width: 350px;
+        height: 265px;
+    }
+}

@@ -109,10 +109,10 @@ const Reviews = () => {
                 transition={{ease: 'backInOut', duration: 1.2}}
                 className={styles.sponsors}
             >
-                <img src={logo1} alt=""/>
-                <img src={logo2} alt=""/>
+                <img  className={styles.item} src={logo1} alt=""/>
+                <img className={styles.item} src={logo2} alt=""/>
                 <img className={styles.coinbase} src={logo3} alt=""/>
-                <img src={logo4} alt=""/>
+                <img  className={styles.item} src={logo4} alt=""/>
             </motion.div>
             <motion.div
                 initial={{scale: 0.5, opacity: 0}}

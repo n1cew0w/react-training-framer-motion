@@ -43,3 +43,40 @@
     margin-left: 87px;
 
 }
+
+@media (max-width: 985px) {
+    .findWrapper {
+        flex-direction: column;
+        margin-top: 460px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .findLeft {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .findRight {
+        display: flex;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .findText {
+        font-size: 36px;
+    }
+
+    .findDesc {
+        font-size: 14px;
+    }
+    .findRight img{
+        margin-right: 75px;
+            max-width: 363px;
+            min-height: 300px;
+    }
+}

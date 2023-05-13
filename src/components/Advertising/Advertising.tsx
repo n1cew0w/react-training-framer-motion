@@ -10,7 +10,7 @@ const Advertising = () => {
     return (
         <div>
             <div className={styles.advertWrapper}>
-                <div>
+                <div className={styles.advertLeftImgs}>
                     <motion.img
                         initial={{scale: 0, opacity: 0}}
                         whileInView={{scale: 1, opacity: 1}}

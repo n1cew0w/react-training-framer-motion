@@ -4,9 +4,22 @@ import card2 from './assets/2slide.png'
 import card3 from './assets/3slide.png'
 import robotHand from './assets/robot-hand-background-presenting-technology-gesture 1.png'
 import sphere from './assets/Vector.png'
-import mainStyles from '../Advertising/assets/Main.module.css'
+import mainStyles from './Main.module.css'
 
 import {motion} from "framer-motion"
+//took out properties
+const bannerAnimate = {
+    initial: {
+        opacity: 0
+    },
+    animate: {
+        opacity: 1
+    },
+    transition:{
+      ease: 'easeOut',
+      duration: 2
+    }
+}
 
 const Main = () => {
     return (
@@ -15,10 +28,7 @@ const Main = () => {
                 <div className={mainStyles.hero}>
                     <div className={mainStyles.mainLeft}>
                         <motion.img
-                            initial={{y: -500}}
-                            animate={{y: 0}}
-                            transition={{ease: 'easeOut', duration: 1}}
-
+                            {...bannerAnimate}
                             src={banner} alt=""
                         />
                         <motion.p

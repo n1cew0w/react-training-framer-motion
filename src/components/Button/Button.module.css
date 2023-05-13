@@ -19,5 +19,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media (max-width: 985px) {
 
+}
+@media (max-width: 650px) {
+    .button{
+        width: 140px;
+        height: 44px;
+    }
+    .buttonText{
+        font-size: 16px;
+    }
+}
+@media (max-width: 425px) {
+    .button{
+        width: 120px;
+        height: 37px;
+    }
+    .buttonText{
+        font-size: 12px;
+    }
 }

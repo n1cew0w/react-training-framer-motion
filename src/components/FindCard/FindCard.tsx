@@ -8,15 +8,15 @@ const FindCard = () => {
         <div className={styles.findWrapper}>
             <div className={styles.findLeft}>
                 <motion.p
-                    initial={{x: -700}}
-                    whileInView={{x: 0}}
+                    initial={{opacity: 0}}
+                    whileInView={{opacity: 1}}
                     transition={{ease: 'easeOut', duration: 1}}
                     className={styles.findText}>
                     Find a better card deal in few easy steps.
                 </motion.p>
                 <motion.p
-                    initial={{x: -700}}
-                    whileInView={{x: 0}}
+                    initial={{opacity: 0}}
+                    whileInView={{opacity: 1}}
                     transition={{ease: 'easeOut', duration: 1.3}}
                     className={styles.findDesc}>
                     Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.

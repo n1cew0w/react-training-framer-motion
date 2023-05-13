@@ -41,3 +41,48 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 985px) {
+    .advertWrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .advertRight{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 55px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .advertLeftImgs{
+        position: absolute;
+        margin: 420px 450px 0px 0px;
+
+    }
+
+}
+@media (max-width: 425px) {
+    .advertRight{
+        min-width: 390px;
+    }
+    .advertText{
+        font-size: 36px;
+    }
+    .advertDesc{
+        font-size: 14px;
+    }
+    .paypal{
+        width: 180px;
+        height: 180px;
+    }
+    .transactions{
+        margin-left: 35px;
+        margin-top: 115px;
+        width: 270px;
+        height: 215px;
+
+    }
+
+}

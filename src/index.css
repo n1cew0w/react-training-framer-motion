@@ -17,3 +17,9 @@
   overflow-x: hidden;
 }
 
+@media (max-width: 2400px) {
+  body, html, :root {
+    overflow-x: hidden;
+  }
+}
+

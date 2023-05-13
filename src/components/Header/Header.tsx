@@ -1,6 +1,7 @@
 
 import logoIcon from './logo.png'
 import headerStyles from './Header.module.css'
+import Button from "../Button/Button";
 const Header = () => {
 
 
@@ -19,6 +20,10 @@ const Header = () => {
                             <li>Solution</li>
                         </ul>
                     </div>
+                    <div className={headerStyles.menuBtn}>
+                        <Button buttonText={'Menu'}/>
+                    </div>
+
                 </div>
 
 

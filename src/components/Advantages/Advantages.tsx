@@ -21,12 +21,15 @@ const Advantages = () => {
                     With the right credit card, you can improve your financial life by building credit, earning rewards
                     and saving money. But with hundreds of credit cards on the market.
                 </p>
-                <Button buttonText={'Get Started'}/>
+                <div className={styles.advantageBtn}>
+                    <Button buttonText={'Get Started'}/>
+                </div>
+
             </motion.div>
             <div className={styles.advantageRight}>
                 <div className={styles.cards}>
                     <motion.div
-                        initial={{x: 700}}
+                        initial={{x: 300}}
                         whileInView={{x: 0}}
                         whileHover={{scale: 1.03}}
                         transition={{ease: 'easeOut', duration: 1}}
@@ -44,7 +47,7 @@ const Advantages = () => {
                         </div>
                     </motion.div>
                     <motion.div
-                        initial={{x: 700}}
+                        initial={{x: 300}}
                         whileInView={{x: 0}}
                         whileHover={{scale: 1.03}}
                         transition={{ease: 'easeOut', duration: 1.2}}
@@ -62,7 +65,7 @@ const Advantages = () => {
                         </div>
                     </motion.div>
                     <motion.div
-                        initial={{x: 700}}
+                        initial={{x: 300}}
                         whileInView={{x: 0}}
                         whileHover={{scale: 1.03}}
                         transition={{ease: 'easeOut', duration: 1.4}}

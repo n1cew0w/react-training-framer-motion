@@ -1,4 +1,8 @@
-
+.achWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .ach{
     display: flex;
     align-items: center;
@@ -23,4 +27,17 @@
     width: 13px;
     border: 1.7px solid rgba(255, 255, 255, 0.6);
     transform: rotate(90deg);
+}
+@media (max-width: 985px) {
+    .achWrap{
+        margin: -40px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .line{
+        display: none;
+    }
+
 }

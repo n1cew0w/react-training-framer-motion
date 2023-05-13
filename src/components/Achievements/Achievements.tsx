@@ -2,7 +2,7 @@
 import AchStyles from './Achievements.module.css'
 const Achievements = () => {
     return (
-        <div className={AchStyles.ach}>
+        <div className={AchStyles.achWrap}>
             <div className={AchStyles.ach}>
                 <p className={AchStyles.numbers}>3800+</p>
                 <p className={AchStyles.text}>USER ACTIVE</p>

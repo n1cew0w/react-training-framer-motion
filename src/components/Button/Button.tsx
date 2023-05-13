@@ -3,7 +3,7 @@ import {motion} from "framer-motion";
 
 
 
-const Button = ({buttonText}: any) => {
+const Button = ({buttonText}: any, {className}: any) => {
 
 
     return (
